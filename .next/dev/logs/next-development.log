@@ -773,3 +773,63 @@ https://nextjs.org/docs/messages/module-not-found
 [06:38:57.500] Server  LOG     ✓ Compiled in 127ms
 [06:39:19.328] Server  LOG     ✓ Compiled in 70ms
 [06:39:30.869] Server  LOG     ✓ Compiled in 98ms
+[06:47:41.818] Server  LOG     ✓ Compiled in 996ms
+[06:47:51.407] Server  LOG     ✓ Compiled in 1224ms
+[06:54:03.542] Server  LOG     ✓ Compiled in 117ms
+[06:54:03.672] Browser ERROR   uncaughtError: ReferenceError: leftSteps is not defined
+[06:54:09.157] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:54:09.181] Server  LOG     ✓ Compiled in 73ms
+[06:54:09.468] Server  ERROR   ⨯ ReferenceError: step is not defined
+[06:54:09.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:54:11.629] Browser ERROR   uncaughtError: ReferenceError: step is not defined
+[06:54:21.889] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:54:21.910] Server  LOG     ✓ Compiled in 73ms
+[06:54:22.032] Server  ERROR   ⨯ ReferenceError: rightSteps is not defined
+[06:54:22.272] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:54:23.632] Browser ERROR   uncaughtError: ReferenceError: rightSteps is not defined
+[06:54:31.118] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:54:31.236] Server  LOG     ✓ Compiled in 45ms
+[06:54:31.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:54:46.441] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:54:46.441] Browser WARN    Image with src "/fräsen-box.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:54:46.441] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[06:55:59.379] Server  LOG     ✓ Compiled in 40ms
+[06:56:06.456] Server  LOG     ✓ Compiled in 48ms
+[06:57:45.371] Server  LOG     ✓ Compiled in 49ms
+[06:59:06.045] Server  LOG     ✓ Compiled in 166ms
+[07:03:34.443] Server  LOG     ✓ Compiled in 123ms
+[07:03:57.416] Server  LOG     ✓ Compiled in 463ms
+[07:03:57.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:04:23.108] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:04:23.108] Browser WARN    Image with src "/fräsen-box.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:04:23.108] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:04:23.108] Browser WARN    Image with src "/fräsen-box.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:05:49.836] Server  LOG     ✓ Compiled in 66ms
+[07:06:19.024] Server  LOG     ✓ Compiled in 60ms
+[07:06:20.886] Server  LOG     ✓ Compiled in 54ms
+[07:06:28.319] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:10:49.015] Server  LOG     ✓ Compiled in 176ms
+[07:11:57.342] Server  LOG     ✓ Compiled in 64ms
+[07:12:28.683] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:12:29.590] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:12:29.590] Browser WARN    Image with src "/fräsen-box.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:12:29.590] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:12:32.674] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:15:02.093] Server  LOG     ✓ Compiled in 64ms
+[07:15:18.040] Server  LOG     ✓ Compiled in 56ms
+[07:15:39.474] Server  LOG     ✓ Compiled in 84ms
+[07:16:40.394] Server  LOG     ✓ Compiled in 65ms
+[07:16:59.412] Server  LOG     ✓ Compiled in 61ms
+[07:17:03.168] Server  LOG     ✓ Compiled in 103ms
+[07:17:04.604] Server  LOG     ✓ Compiled in 79ms
+[07:18:29.825] Server  LOG     ✓ Compiled in 58ms
+[07:18:38.658] Server  LOG     ✓ Compiled in 53ms
+[07:20:00.233] Server  LOG     ✓ Compiled in 195ms
+[07:21:55.326] Server  LOG     ✓ Compiled in 110ms
+[07:21:56.529] Server  LOG     ✓ Compiled in 59ms
+[07:23:13.458] Server  LOG     ✓ Compiled in 45ms
+[07:23:24.573] Server  LOG     ✓ Compiled in 72ms
+[07:23:32.167] Server  LOG     ✓ Compiled in 46ms
+[07:24:50.497] Server  LOG     ✓ Compiled in 70ms
+[07:26:05.286] Server  LOG     ✓ Compiled in 45ms
