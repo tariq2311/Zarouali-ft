@@ -833,3 +833,32 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [07:23:32.167] Server  LOG     ✓ Compiled in 46ms
 [07:24:50.497] Server  LOG     ✓ Compiled in 70ms
 [07:26:05.286] Server  LOG     ✓ Compiled in 45ms
+[07:32:26.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:32:26.583] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:26.583] Browser WARN    Image with src "/fräsen-box.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:26.583] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:29.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:32:29.725] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:29.725] Browser WARN    Image with src "/fräsen-box.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:29.725] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:42.901] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[07:37:00.241] Server  LOG     ✓ Compiled in 2.6s
+[07:37:59.504] Server  LOG     ✓ Compiled in 70ms
+[07:38:29.848] Server  LOG     ✓ Compiled in 72ms
+[07:38:41.552] Server  LOG     ✓ Compiled in 493ms
+[07:38:42.626] Browser WARN    Image with src "/hero-bg.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:38:49.872] Server  LOG     ✓ Compiled in 372ms
+[07:39:52.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:39:53.393] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:39:53.393] Browser WARN    Image with src "/hero-bg.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:39:54.000] Browser WARN    Image with src "/hero-bg.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[07:40:15.027] Server  LOG     ✓ Compiled in 53ms
+[07:40:17.499] Server  LOG     ✓ Compiled in 49ms
+[07:41:18.087] Server  LOG     ✓ Compiled in 75ms
+[07:49:47.145] Server  LOG     ✓ Compiled in 147ms
+[07:52:22.028] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:52:22.520] Browser WARN    Image with src "/logo-inkl-text.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:52:22.520] Browser WARN    Image with src "/hero-bg.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:52:23.075] Browser WARN    Image with src "/hero-bg.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

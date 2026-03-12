@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/qualitaet/layout,_N_T_/qualitaet/page,_N_T_/qualitaet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/qualitaet/__PAGE__",
+    "/qualitaet",
+    "/_index",
+    "/_head"
+  ]
+}
