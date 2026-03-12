@@ -9,7 +9,6 @@ const navLinks = [
   { href: "/", label: "Startseite" },
   { href: "/leistungen", label: "Leistungen" },
   { href: "/qualitaet", label: "Qualitätskontrolle" },
-  { href: "/kontakt", label: "Kontakt" },
 ];
 
 export default function Navbar() {
@@ -71,7 +70,7 @@ export default function Navbar() {
               href="/kontakt"
               className="ml-4 px-6 py-2.5 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary-600/25 active:scale-95"
             >
-              Anfrage stellen
+              Kontakt
             </Link>
           </div>
 
@@ -133,9 +132,9 @@ export default function Navbar() {
                 <Link
                   href="/kontakt"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block text-center px-6 py-3 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-lg transition-all duration-300"
+                  className="block text-center px-6 py-3 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full transition-all duration-300"
                 >
-                  Anfrage stellen
+                  Kontakt
                 </Link>
               </motion.div>
             </div>

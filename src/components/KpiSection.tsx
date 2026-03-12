@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 
 const kpis = [
-  { value: "15+", label: "Jahre Erfahrung" },
-  { value: "500+", label: "Projekte" },
+  { value: "20+", label: "Jahre Erfahrung" },
+  { value: "100%", label: "Made in Sauerland" },
   { value: "99%", label: "Zufriedenheit" },
   { value: "24h", label: "Reaktionszeit" },
 ];

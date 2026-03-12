@@ -20,7 +20,7 @@ export default function HeroSection({ backgroundImage }: HeroSectionProps) {
         }}
       >
         {/* Dunkles Overlay für bessere Lesbarkeit */}
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/75" />
 
         {/* Decorative Grid Pattern */}
         <div
@@ -56,7 +56,8 @@ export default function HeroSection({ backgroundImage }: HeroSectionProps) {
           className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-6 tracking-wider"
         >
           Herzlich Willkommen bei{" "}
-          <span className="text-primary-500">A. Zarouali</span>
+          <br />
+          <span className="text-primary-500">A. Zarouali </span>
           {" "}Fertigungstechnik
         </motion.h1>
 
@@ -70,43 +71,6 @@ export default function HeroSection({ backgroundImage }: HeroSectionProps) {
           Ihr Partner für hochwertige Fertigungstechnik. Wir realisieren Ihre
           Ideen mit modernster Technologie und höchster Präzision.
         </motion.p>
-
-        {/* Buttons Container */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="flex flex-col sm:flex-row gap-5 justify-center items-center"
-        >
-          {/* Primärer Button - Kontakt */}
-          <Link href="/kontakt">
-            <motion.span
-              whileHover={{ scale: 1.03, boxShadow: "0 0 30px rgba(222, 36, 16, 0.4)" }}
-              whileTap={{ scale: 0.97 }}
-              className="group relative inline-flex items-center gap-2 px-8 py-4 bg-primary-500 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 cursor-pointer"
-            >
-              <span className="relative z-10">Kontakt aufnehmen</span>
-              <svg className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-              <span className="absolute inset-0 bg-gradient-to-r from-primary-600 to-primary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </motion.span>
-          </Link>
-
-          {/* Sekundärer Button - Leistungen */}
-          <Link href="/leistungen">
-            <motion.span
-              whileHover={{ scale: 1.03 }}
-              whileTap={{ scale: 0.97 }}
-              className="group relative inline-flex items-center gap-2 px-8 py-4 bg-white text-slate-900 font-semibold rounded-full overflow-hidden transition-all duration-300 cursor-pointer hover:bg-gray-100"
-            >
-              <span>Unsere Leistungen</span>
-              <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </motion.span>
-          </Link>
-        </motion.div>
       </div>
 
       {/* Scroll-Indikator */}
