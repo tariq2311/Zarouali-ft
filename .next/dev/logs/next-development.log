@@ -729,3 +729,6 @@ https://nextjs.org/docs/messages/module-not-found
 [01:51:58.652] Browser WARN    Image with src "/logo-groß.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:52:38.080] Server  LOG     ✓ Compiled in 40ms
 [01:58:13.100] Server  LOG     ✓ Compiled in 58ms
+[02:25:13.779] Server  LOG     ✓ Compiled in 618ms
+[02:25:18.321] Server  LOG     ✓ Compiled in 41ms
+[02:25:47.886] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

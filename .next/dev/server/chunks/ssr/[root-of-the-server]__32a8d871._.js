@@ -63,7 +63,7 @@ function Navbar() {
             duration: 0.6,
             ease: "easeOut"
         },
-        className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-slate-800/95 backdrop-blur-md shadow-lg shadow-black/20 border-b border-white/5" : "bg-transparent"}`,
+        className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-black/30 backdrop-blur-xl shadow-lg shadow-black/10 border-b border-white/10" : "bg-transparent"}`,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                 className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
@@ -207,7 +207,7 @@ function Navbar() {
                         duration: 0.3,
                         ease: "easeInOut"
                     },
-                    className: "md:hidden bg-slate-800/98 backdrop-blur-lg border-t border-white/5 overflow-hidden",
+                    className: "md:hidden bg-black/40 backdrop-blur-xl border-t border-white/10 overflow-hidden",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "max-w-7xl mx-auto px-4 py-6 space-y-1",
                         children: [

@@ -31,7 +31,7 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-        ? "bg-slate-800/95 backdrop-blur-md shadow-lg shadow-black/20 border-b border-white/5"
+        ? "bg-black/30 backdrop-blur-xl shadow-lg shadow-black/10 border-b border-white/10"
         : "bg-transparent"
         }`}
     >
@@ -105,7 +105,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden bg-slate-800/98 backdrop-blur-lg border-t border-white/5 overflow-hidden"
+            className="md:hidden bg-black/40 backdrop-blur-xl border-t border-white/10 overflow-hidden"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-1">
               {navLinks.map((link, index) => (
