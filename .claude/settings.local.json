@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 15 npm run dev)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(powershell -Command \"Stop-Process -Name ''node'' -Force -ErrorAction SilentlyContinue\")"
+    ]
+  }
+}
