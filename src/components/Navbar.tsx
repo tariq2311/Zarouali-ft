@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
@@ -11,9 +12,16 @@ const navLinks = [
   { href: "/qualitaet", label: "Qualitätskontrolle" },
 ];
 
+// Seiten die einen dunklen Navbar-Hintergrund benötigen
+const darkNavbarPages = ["/leistungen", "/qualitaet", "/impressum", "/datenschutz"];
+
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Prüfen ob die aktuelle Seite einen dunklen Hintergrund braucht
+  const needsDarkBackground = darkNavbarPages.includes(pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,10 +37,11 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-        ? "bg-black/30 backdrop-blur-xl shadow-lg shadow-black/10 border-b border-white/10"
-        : "bg-transparent"
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        isScrolled || needsDarkBackground
+          ? "bg-slate-800/90 backdrop-blur-xl shadow-lg shadow-black/10 border-b border-white/10"
+          : "bg-transparent"
+      }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -51,7 +60,7 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
-            {navLinks.map((link, index) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -67,7 +76,7 @@ export default function Navbar() {
 
             {/* CTA Button */}
             <Link
-              href="/kontakt"
+              href="/#kontakt"
               className="ml-4 px-6 py-2.5 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-primary-600/25 active:scale-95"
             >
               Kontakt
@@ -81,16 +90,19 @@ export default function Navbar() {
             aria-label="Menü öffnen"
           >
             <span
-              className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? "rotate-45 translate-y-2" : ""
-                }`}
+              className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? "rotate-45 translate-y-2" : ""
+              }`}
             />
             <span
-              className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? "opacity-0 scale-0" : ""
-                }`}
+              className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? "opacity-0 scale-0" : ""
+              }`}
             />
             <span
-              className={`w-6 h-0.5 bg-white transition-all duration-300 ${isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
-                }`}
+              className={`w-6 h-0.5 bg-white transition-all duration-300 ${
+                isMobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
+              }`}
             />
           </button>
         </div>
@@ -104,7 +116,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="md:hidden bg-black/40 backdrop-blur-xl border-t border-white/10 overflow-hidden"
+            className="md:hidden bg-slate-800/95 backdrop-blur-xl border-t border-white/10 overflow-hidden"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-1">
               {navLinks.map((link, index) => (
@@ -130,7 +142,7 @@ export default function Navbar() {
                 className="pt-4"
               >
                 <Link
-                  href="/kontakt"
+                  href="/#kontakt"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="block text-center px-6 py-3 bg-primary-600 hover:bg-primary-500 text-white font-medium rounded-full transition-all duration-300"
                 >

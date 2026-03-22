@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import KpiSection from "@/components/KpiSection";
 import VorteileSection from "@/components/VorteileSection";
+import QualitaetSection from "@/components/QualitaetSection";
 import ProzessSection from "@/components/ProzessSection";
 import ContactSection from "@/components/ContactSection";
 
